@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ee1da78c977802106fda7b771153afe0" extends="sys_import_set_row" label="Student  Details" max_length="40" name="x_1327796_student1_student__details" type="collection">
+        <element attributes="import_attribute_name=Contact" label="Contact" max_length="40" name="u_contact" type="float"/>
+        <element attributes="import_attribute_name=ID" label="ID" max_length="40" name="u_id" type="float"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Mail" label="Mail" max_length="40" name="u_mail" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Student Name" label="Student Name" max_length="40" name="u_student_name" type="string"/>
+    </element>
+</database>

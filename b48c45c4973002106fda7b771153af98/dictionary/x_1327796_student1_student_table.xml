@@ -2,7 +2,8 @@
     <element db_object_id="703d8908973002106fda7b771153afee" label="Student Table" max_length="40" name="x_1327796_student1_student_table" type="collection">
         <element label="Contact" max_length="10" name="contact" type="string"/>
         <element label="Email" max_length="30" name="email" type="string"/>
-        <element label="ID" max_length="20" name="id" type="string"/>
+        <element dependent="id" dependent_on_field="id" label="ID" max_length="20" name="id" type="string" use_dependent_field="true"/>
         <element label="Name" max_length="20" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Stu_id" max_length="40" name="stu_id" type="string"/>
     </element>
 </database>

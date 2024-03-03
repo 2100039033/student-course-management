@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="83ec4508973002106fda7b771153af00" label="Course Table" max_length="40" name="x_1327796_student1_course_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Branch" max_length="40" name="branch" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact" max_length="40" name="contact" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Course Code" max_length="40" name="course_code" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Course Name" max_length="40" name="course_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="email" type="string"/>
+        <element attributes="encode_utf8=false" label="ID" max_length="32" name="id" reference="x_1327796_student1_student_table" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="new" label="State" max_length="40" name="state" read_only="true" type="string">
             <choice>
@@ -10,5 +15,8 @@
                 <element inactive_on_update="false" label="Complete" sequence="2" value="complete"/>
             </choice>
         </element>
+        <index name="index">
+            <element name="id"/>
+        </index>
     </element>
 </database>
