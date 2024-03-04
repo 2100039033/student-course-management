@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1327796_student1.Userdetails</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>Userdetails</name>
+        <script><![CDATA[var Userdetails = Class.create();
+Userdetails.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getBranch: function(){
+		var user=this.getParameter('sysparm_user');
+		var gr=new GlideRecord('sys_user');
+		gr.addQuery('course_code',user);
+		gr.query();
+		if(gr.next())
+		{
+			return gr.branch;
+		}else{
+			return 'fasle';
+		}
+	},
+    type: 'Userdetails'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-03 12:58:27</sys_created_on>
+        <sys_id>1ade59d8973042106fda7b771153af75</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Userdetails</sys_name>
+        <sys_package display_value="Student Course  Management" source="x_1327796_student1">b48c45c4973002106fda7b771153af98</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Student Course  Management">b48c45c4973002106fda7b771153af98</sys_scope>
+        <sys_update_name>sys_script_include_1ade59d8973042106fda7b771153af75</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 03:08:32</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student Course  Management">b48c45c4973002106fda7b771153af98</application>
+        <file_path/>
+        <instance_id>da76b890db12a01049eac59705961946</instance_id>
+        <instance_name>dev106725</instance_name>
+        <name>sys_script_include_1ade59d8973042106fda7b771153af75</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1327796_student1.Userdetails&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;Userdetails&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var Userdetails = Class.create();
+Userdetails.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getBranch: function(){
+		var user=this.getParameter('sysparm_user');
+		var gr=new GlideRecord('sys_user');
+		gr.addQuery('course_code',user);
+		gr.query();
+		if(gr.next())
+		{
+			return gr.branch;
+		}else{
+			return 'fasle';
+		}
+	},
+    type: 'Userdetails'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-03 12:58:27&lt;/sys_created_on&gt;&lt;sys_id&gt;1ade59d8973042106fda7b771153af75&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;Userdetails&lt;/sys_name&gt;&lt;sys_package display_value="Student Course  Management" source="x_1327796_student1"&gt;b48c45c4973002106fda7b771153af98&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Student Course  Management"&gt;b48c45c4973002106fda7b771153af98&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_1ade59d8973042106fda7b771153af75&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-04 03:08:32&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1202119316</payload_hash>
+        <record_name>Userdetails</record_name>
+        <reverted_from/>
+        <source>ec48ed4097b002106fda7b771153af0d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 03:08:32</sys_created_on>
+        <sys_id>74e3e820973c42106fda7b771153af13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e076f36fb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 03:08:32</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>3ce3e820713c42105311ae5611d78f12</update_guid>
+        <update_guid_history>3ce3e820713c42105311ae5611d78f12:-1202119316,df83a4ec02f84210e58e50e8d7b595fb:1973059415,2da2a4ecd8f84210c77af1e513af0ed7:-610376600,60912ca07c784210c0bcc4d8d19f4243:1765077064,0b71e0ace2f8421095902d57738b1702:896917864,9f025e58a8f0421029602f1247131783:1765077064,ec516d5c3e3042105ce97cb78d94d9fa:53545783</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 03:55:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>48c8b926b612429c9f7ddb3005e95c90</sys_id>
+        <sys_metadata>1ade59d8973042106fda7b771153af75</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Userdetails</sys_name>
+        <sys_package display_value="Student Course  Management" source="x_1327796_student1">b48c45c4973002106fda7b771153af98</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Student Course  Management">b48c45c4973002106fda7b771153af98</sys_scope>
+        <sys_scope_delete display_value="">0d9103a94c0a4ef99344c4aecde36c81</sys_scope_delete>
+        <sys_update_name>sys_script_include_1ade59d8973042106fda7b771153af75</sys_update_name>
+        <sys_update_version display_value="sys_script_include_1ade59d8973042106fda7b771153af75">74e3e820973c42106fda7b771153af13</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 03:55:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

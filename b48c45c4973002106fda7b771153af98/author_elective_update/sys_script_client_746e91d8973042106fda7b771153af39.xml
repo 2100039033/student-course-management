@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>course_code</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Get Branch</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    var ga = new GlideAjax('Userdetails');
+    ga.addParam('sysparm_course_code', 'getBranch');
+    ga.addParam('sysparm_user', g_form.getValue('course_code'));
+    ga.getXML(calBack);
+	function calBack(response) {
+        var answer = response.responseXMl.documentElement.getAttribute('answer');
+        g_form.setValue('branch', answer);
+		g_form.setReadOnly('branch', true);
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-03 12:55:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>746e91d8973042106fda7b771153af39</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Get Branch</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Student Course  Management" source="x_1327796_student1">b48c45c4973002106fda7b771153af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Course  Management">b48c45c4973002106fda7b771153af98</sys_scope>
+        <sys_update_name>sys_script_client_746e91d8973042106fda7b771153af39</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 03:08:46</sys_updated_on>
+        <table>x_1327796_student1_course_table</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student Course  Management">b48c45c4973002106fda7b771153af98</application>
+        <file_path/>
+        <instance_id>da76b890db12a01049eac59705961946</instance_id>
+        <instance_name>dev106725</instance_name>
+        <name>sys_script_client_746e91d8973042106fda7b771153af39</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;course_code&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Get Branch&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    var ga = new GlideAjax('Userdetails');
+    ga.addParam('sysparm_course_code', 'getBranch');
+    ga.addParam('sysparm_user', g_form.getValue('course_code'));
+    ga.getXML(calBack);
+	function calBack(response) {
+        var answer = response.responseXMl.documentElement.getAttribute('answer');
+        g_form.setValue('branch', answer);
+		g_form.setReadOnly('branch', true);
+    }
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-03 12:55:18&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;746e91d8973042106fda7b771153af39&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;Get Branch&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Student Course  Management" source="x_1327796_student1"&gt;b48c45c4973002106fda7b771153af98&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Student Course  Management"&gt;b48c45c4973002106fda7b771153af98&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_746e91d8973042106fda7b771153af39&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-04 03:08:46&lt;/sys_updated_on&gt;&lt;table&gt;x_1327796_student1_course_table&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>964434951</payload_hash>
+        <record_name>Get Branch</record_name>
+        <reverted_from/>
+        <source>ec48ed4097b002106fda7b771153af0d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 03:08:46</sys_created_on>
+        <sys_id>d4f32020973c42106fda7b771153af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e076f6d090000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 03:08:46</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>9cf32020203c42100d10d97df6fba074</update_guid>
+        <update_guid_history>9cf32020203c42100d10d97df6fba074:964434951,ff92acac86f8421087a53e117546b308:-946493134,c6b4de1c53f042106701beda38e337a8:472505618,9ee29ed8fdf042104a74c60788d26633:2094192685,05b29658a8f04210043b0cbd10d0a324:809728219,da7212d886f0421060f1ddedf4c9328f:458184813,f5011298f5f04210d459f217c0659220:1327990044,80509a18cff042100c64039e9e174e08:-1918808430,86dec6d4e8f0421037f5caad695aac88:-282800558,cf7ec6d4f7f042104e02aec090d3ae3e:-1629697461,085e0e5c9170421094990efcbd8e08ac:-1890418531,405439d490704210c2250c92cfbe047b:1802636489,9ba1e19cf73042108fa467e814e43c72:-1904371124,5a90a1d83f304210f6d109ba0f06bc70:-903656024</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 03:55:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>4b1a8ccfdbb44e4390f8ce4f35d5b239</sys_id>
+        <sys_metadata>746e91d8973042106fda7b771153af39</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Branch</sys_name>
+        <sys_package display_value="Student Course  Management" source="x_1327796_student1">b48c45c4973002106fda7b771153af98</sys_package>
+        <sys_parent display_value="Course Table">83ec4508973002106fda7b771153af00</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Student Course  Management">b48c45c4973002106fda7b771153af98</sys_scope>
+        <sys_scope_delete display_value="">0d9103a94c0a4ef99344c4aecde36c81</sys_scope_delete>
+        <sys_update_name>sys_script_client_746e91d8973042106fda7b771153af39</sys_update_name>
+        <sys_update_version display_value="sys_script_client_746e91d8973042106fda7b771153af39">d4f32020973c42106fda7b771153af75</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 03:55:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
