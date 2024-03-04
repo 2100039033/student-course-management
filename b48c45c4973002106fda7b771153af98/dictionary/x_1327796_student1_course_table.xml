@@ -15,8 +15,12 @@
                 <element inactive_on_update="false" label="Complete" sequence="2" value="complete"/>
             </choice>
         </element>
+        <element attributes="encode_utf8=false" label="Stu_Name" max_length="32" name="stu_name" reference="x_1327796_student1_student_table" type="reference"/>
         <index name="index">
             <element name="id"/>
+        </index>
+        <index name="index2">
+            <element name="stu_name"/>
         </index>
     </element>
 </database>

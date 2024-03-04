@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category">
+    <asmt_metric_category action="DELETE">
+        <create_stakeholders>false</create_stakeholders>
+        <description/>
+        <details/>
+        <filter table="asmt_metric_type">sys_id=42d7a520973082106fda7b771153afc3^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="42d7a520973082106fda7b771153afc3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <metric_type display_value="">42d7a520973082106fda7b771153afc3</metric_type>
+        <name>Course Survey</name>
+        <order>100</order>
+        <qb_evaluation_method/>
+        <roles/>
+        <scoring_type>percent</scoring_type>
+        <sys_class_name>asmt_metric_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 08:05:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0ad7a160973082106fda7b771153af50</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Course Survey</sys_name>
+        <sys_package display_value="Student Course  Management" source="x_1327796_student1">b48c45c4973002106fda7b771153af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Course  Management">b48c45c4973002106fda7b771153af98</sys_scope>
+        <sys_update_name>asmt_metric_category_0ad7a160973082106fda7b771153af50</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 13:09:24</sys_updated_on>
+        <table>asmt_metric_type</table>
+        <total_metrics>0</total_metrics>
+        <weight>10</weight>
+    </asmt_metric_category>
+    <sys_translated_text action="DELETE" query="documentkey=0ad7a160973082106fda7b771153af50"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student Course  Management">b48c45c4973002106fda7b771153af98</application>
+        <file_path/>
+        <instance_id>da76b890db12a01049eac59705961946</instance_id>
+        <instance_name>dev106725</instance_name>
+        <name>asmt_metric_category_0ad7a160973082106fda7b771153af50</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category"><asmt_metric_category action="INSERT_OR_UPDATE"><create_stakeholders>false</create_stakeholders><description/><details/><filter table="asmt_metric_type">sys_id=42d7a520973082106fda7b771153afc3^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="42d7a520973082106fda7b771153afc3"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><metric_type display_value="">42d7a520973082106fda7b771153afc3</metric_type><name>Course Survey</name><order>100</order><qb_evaluation_method/><roles/><scoring_type>percent</scoring_type><sys_class_name>asmt_metric_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-04 08:05:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0ad7a160973082106fda7b771153af50</sys_id><sys_mod_count>13</sys_mod_count><sys_name>Course Survey</sys_name><sys_package display_value="Student Course  Management" source="x_1327796_student1">b48c45c4973002106fda7b771153af98</sys_package><sys_policy/><sys_scope display_value="Student Course  Management">b48c45c4973002106fda7b771153af98</sys_scope><sys_update_name>asmt_metric_category_0ad7a160973082106fda7b771153af50</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-04 13:09:24</sys_updated_on><table>asmt_metric_type</table><total_metrics>0</total_metrics><weight>10</weight></asmt_metric_category><sys_translated_text action="delete_multiple" query="documentkey=0ad7a160973082106fda7b771153af50"/></record_update>]]></payload>
+        <payload_hash>838484163</payload_hash>
+        <record_name>Course Survey</record_name>
+        <reverted_from/>
+        <source>ec48ed4097b002106fda7b771153af0d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 13:09:24</sys_created_on>
+        <sys_id>aa6d2ea0973482106fda7b771153af7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e09954fc10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 13:09:24</sys_updated_on>
+        <type>Metric Category</type>
+        <update_guid>626d2ea029348210a43ef1e66e4f577d</update_guid>
+        <update_guid_history>626d2ea029348210a43ef1e66e4f577d:838484163,226d2ea09c348210c88941c0f4147d73:1705536388,1a6d2ea0b734821079ae4e55ae720e5c:-1722378683,d66d2ea0c1348210fad6b09b87701f52:-855326458,966d2ea0da348210f8153a1982080248:11725767,d26d2ea079348210fb9401ba4ebb763e:878777992,e578ad60003082106d1962534eea6f39:-312374666,92d7a160eb3082106abd3c9fdf347486:-406970941,ded7a160d6308210a03be9122dbce380:-1274023166,4ed7a1607e308210054d539aef58a169:-2141075391,8ad7a160e2308210e4d4858167ab0c64:1286839680,c6d7a160db3082109c6e078668d8f75f:419787455,82d7a160b13082105339b98b4744685a:-447264770,8ed7a16080308210cf6185ee90a8a553:-1059234351</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Course Survey">2a6d2ea0973482106fda7b771153af88</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 13:09:24</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_category">asmt_metric_category</sys_db_object>
+        <sys_id>b1d75803fa734c3082154d27915e4004</sys_id>
+        <sys_metadata>0ad7a160973082106fda7b771153af50</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Course Survey</sys_name>
+        <sys_package display_value="Student Course  Management" source="x_1327796_student1">b48c45c4973002106fda7b771153af98</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Student Course  Management">b48c45c4973002106fda7b771153af98</sys_scope>
+        <sys_scope_delete display_value="">0d9103a94c0a4ef99344c4aecde36c81</sys_scope_delete>
+        <sys_update_name>asmt_metric_category_0ad7a160973082106fda7b771153af50</sys_update_name>
+        <sys_update_version display_value="asmt_metric_category_0ad7a160973082106fda7b771153af50">aa6d2ea0973482106fda7b771153af7d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 13:09:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
