@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="state" table="x_1327796_student1_course_table">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="courses" table="x_1327796_student1_course_table">
         <active>true</active>
         <array>false</array>
         <attributes>edge_encryption_enabled=true</attributes>
@@ -8,20 +8,20 @@
         <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>State</column_label>
+        <column_label>Courses</column_label>
         <comments/>
         <create_roles/>
-        <default_value>new</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
+        <dependent>specialisation</dependent>
+        <dependent_on_field>specialisation</dependent_on_field>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>state</element>
+        <element>courses</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -46,18 +46,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-02 16:50:52</sys_created_on>
-        <sys_name>State</sys_name>
+        <sys_created_on>2024-03-05 09:35:08</sys_created_on>
+        <sys_name>Courses</sys_name>
         <sys_package display_value="Student Course  Management" source="x_1327796_student1">b48c45c4973002106fda7b771153af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Student Course  Management">b48c45c4973002106fda7b771153af98</sys_scope>
-        <sys_update_name>sys_dictionary_x_1327796_student1_course_table_state</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1327796_student1_course_table_courses</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-05 11:43:13</sys_updated_on>
+        <sys_updated_on>2024-03-05 11:17:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
+        <use_dependent_field>true</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
