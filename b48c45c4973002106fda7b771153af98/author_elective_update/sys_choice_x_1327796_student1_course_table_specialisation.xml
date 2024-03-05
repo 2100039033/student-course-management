@@ -263,6 +263,25 @@
             <value>Electric vehicle technologies</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>ECE</dependent_value>
+            <element>specialisation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>VLSI</label>
+            <language>en</language>
+            <name>x_1327796_student1_course_table</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-05 14:24:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-05 14:24:35</sys_updated_on>
+            <value>VLSI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>CSE</dependent_value>
             <element>specialisation</element>
             <hint/>
@@ -299,6 +318,25 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-03-05 11:28:36</sys_updated_on>
             <value>Cyber Blockchain</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>CSE</dependent_value>
+            <element>specialisation</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Cyber Physical and IOT</label>
+            <language>en</language>
+            <name>x_1327796_student1_course_table</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-05 10:01:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-05 13:38:38</sys_updated_on>
+            <value>Cyber Physical and IOT</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>CSIT</dependent_value>
@@ -495,19 +533,19 @@
             <element>specialisation</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Cyber Physical and IOT</label>
+            <label>Cyber Blockchain</label>
             <language>en</language>
             <name>x_1327796_student1_course_table</name>
             <sequence>5</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-05 10:01:27</sys_created_on>
+            <sys_created_on>2024-03-05 11:27:22</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-05 10:01:27</sys_updated_on>
-            <value>Cyber Physical and IOT</value>
+            <sys_updated_on>2024-03-05 13:38:38</sys_updated_on>
+            <value>Cyber Blockchain</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>ECS</dependent_value>
@@ -527,25 +565,6 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-03-05 11:28:36</sys_updated_on>
             <value>VLSI</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>CSE</dependent_value>
-            <element>specialisation</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Cyber Blockchain</label>
-            <language>en</language>
-            <name>x_1327796_student1_course_table</name>
-            <sequence>6</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-05 11:27:22</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-05 11:27:22</sys_updated_on>
-            <value>Cyber Blockchain</value>
         </sys_choice>
     </sys_choice>
 </record_update>

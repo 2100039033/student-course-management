@@ -2,11 +2,13 @@
     <element db_object_id="83ec4508973002106fda7b771153af00" label="Course Table" max_length="40" name="x_1327796_student1_course_table" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Branch" max_length="40" name="branch" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Contact" max_length="40" name="contact" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Course" max_length="40" name="course" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" dependent="specialisation" dependent_on_field="specialisation" label="Courses" max_length="40" name="courses" type="string" use_dependent_field="true">
             <choice>
                 <element dependent_value="Cyber and Blockchain" inactive="true" inactive_on_update="true" label="-TBDTARGET-x_1327796_student1_course_table" sequence="0" value="-TBDTARGET-x_1327796_student1_course_table"/>
                 <element dependent_value="Cyber and Blockchain" inactive_on_update="false" label="Block chain" sequence="0" value="Block chain"/>
                 <element dependent_value="Cloud" inactive_on_update="false" label="Cloud and serverless" sequence="0" value="Cloud and serverless"/>
+                <element dependent_value="Gaming" inactive_on_update="false" label="Computer Graphics" sequence="0" value="Computer Graphics"/>
                 <element dependent_value="DS" inactive_on_update="false" label="DVT" sequence="0" value="DVT"/>
                 <element dependent_value="Electric vehicle technologies" inactive_on_update="false" label="HV/LV Embedded systems integration." sequence="0" value="HV/LV Embedded systems integration."/>
                 <element dependent_value="IOT" inactive_on_update="false" label="Introduction to IoT Training Course" sequence="0" value="Introduction to IoT Training Course"/>
@@ -14,9 +16,11 @@
                 <element dependent_value="Web Technology" inactive_on_update="false" label="Post Graduate Program In Full Stack Web Development." sequence="0" value="Post Graduate Program In Full Stack Web Development."/>
                 <element dependent_value="Green energy technologies" inactive_on_update="false" label="Renewable Energy: University of Colorado Boulder." sequence="0" value="Renewable Energy: University of Colorado Boulder."/>
                 <element dependent_value="Smart grid technologies" inactive_on_update="false" label="Smart Grid Communication and CyberSecurity" sequence="0" value="Smart Grid Communication and CyberSecurity"/>
+                <element dependent_value="Devops" inactive_on_update="false" label="Software Reliability" sequence="0" value="Software Reliability"/>
                 <element dependent_value="Cyber Blockchain" inactive_on_update="false" label="SSE" sequence="0" value="SSE"/>
                 <element dependent_value="IOT" inactive_on_update="false" label="Architecting Smart IoT Devices" sequence="1" value="Architecting Smart IoT Devices"/>
                 <element dependent_value="Web Technology" inactive_on_update="false" label="Automation Testing Masters Program." sequence="1" value="Automation Testing Masters Program."/>
+                <element dependent_value="Gaming" inactive_on_update="false" label="Business of Games and Enterpreneurship" sequence="1" value="Business of Games and Enterpreneurship"/>
                 <element dependent_value="Cloud" inactive_on_update="false" label="Cloud Security" sequence="1" value="Cloud Security"/>
                 <element dependent_value="Cyber Blockchain" inactive_on_update="false" label="Cloud Security" sequence="1" value="Cloud Security"/>
                 <element dependent_value="Cyber and Blockchain" inactive_on_update="false" label="Crypt" sequence="1" value="Crypt"/>
@@ -25,15 +29,20 @@
                 <element dependent_value="Electric vehicle technologies" inactive_on_update="false" label="HVAC design." sequence="1" value="HVAC design."/>
                 <element dependent_value="AI" inactive_on_update="false" label="NLP" sequence="1" value="NLP"/>
                 <element dependent_value="Smart grid technologies" inactive_on_update="false" label="Power Quality" sequence="1" value="Power Quality"/>
+                <element dependent_value="Devops" inactive_on_update="false" label="Software Project Management" sequence="1" value="Software Project Management"/>
                 <element dependent_value="DS" inactive_on_update="false" label="advaced databases" sequence="2" value="advaced databases"/>
+                <element dependent_value="Gaming" inactive_on_update="false" label="AR &amp; VR Application Development" sequence="2" value="AR &amp; VR Application Development"/>
                 <element dependent_value="Electric vehicle technologies" inactive_on_update="false" label="Braking and Transmission Systems." sequence="2" value="Braking and Transmission Systems."/>
                 <element dependent_value="AI" inactive_on_update="false" label="CC" sequence="2" value="CC"/>
+                <element dependent_value="Devops" inactive_on_update="false" label="Continuous Delivery And Devops" sequence="2" value="Continuous Delivery And Devops"/>
                 <element dependent_value="Cyber Blockchain" inactive_on_update="false" label="Crypt" sequence="2" value="Crypt"/>
                 <element dependent_value="Web Technology" inactive_on_update="false" label="Full Stack Java Developer Bootcamp." sequence="2" value="Full Stack Java Developer Bootcamp."/>
+                <element dependent_value="Cloud" inactive_on_update="false" label="High Performance Computing" sequence="2" value="High Performance Computing"/>
                 <element dependent_value="Smart grid technologies" inactive_on_update="false" label="IOT and Smart Grid Technology" sequence="2" value="IOT and Smart Grid Technology"/>
                 <element dependent_value="IOT" inactive_on_update="false" label="M2M and IoT Interface Design and Protocols for Embedded Systems" sequence="2" value="M2M and IoT Interface Design and Protocols for Embedded Systems"/>
                 <element dependent_value="Green energy technologies" inactive_on_update="false" label="Oil &amp; Gas Industry Operations and Markets: Duke University." sequence="2" value="Oil &amp; Gas Industry Operations and Markets: Duke University."/>
                 <element dependent_value="Cyber and Blockchain" inactive_on_update="false" label="SSE" sequence="2" value="SSE"/>
+                <element dependent_value="Cloud" inactive_on_update="false" label="Advanced Computer Architecture" sequence="3" value="Advanced Computer Architecture"/>
                 <element dependent_value="DS" inactive_on_update="false" label="BDA" sequence="3" value="BDA"/>
                 <element dependent_value="Cyber Blockchain" inactive_on_update="false" label="Blochchain" sequence="3" value="Blochchain"/>
                 <element dependent_value="Cyber and Blockchain" inactive_on_update="false" label="Cloud Security" sequence="3" value="Cloud Security"/>
@@ -47,6 +56,7 @@
                 <element dependent_value="AI" inactive_on_update="false" label="Deep Learning" sequence="4" value="Deep Learning"/>
                 <element dependent_value="Cyber Blockchain" inactive_on_update="false" label="Digital Forensic" sequence="4" value="Digital Forensic"/>
                 <element dependent_value="Cyber and Blockchain" inactive_on_update="false" label="Digital Forensic" sequence="4" value="Digital Forensic"/>
+                <element dependent_value="Cloud" inactive_on_update="false" label="Solution Architect" sequence="4" value="Solution Architect"/>
                 <element dependent_value="Web Technology" inactive_on_update="false" label="UI UX Bootcamp." sequence="4" value="UI UX Bootcamp."/>
                 <element dependent_value="Cyber Blockchain" inactive_on_update="false" label="Database Secure System" sequence="5" value="Database Secure System"/>
                 <element dependent_value="Cyber Blockchain" inactive_on_update="false" label="-TBDTARGET-x_1327796_student1_course_table" sequence="6" value="-TBDTARGET-x_1327796_student1_course_table"/>
@@ -124,8 +134,10 @@
                 <element dependent_value="AIDS" inactive_on_update="false" label="DS" sequence="1" value="DS"/>
                 <element dependent_value="CSE" inactive_on_update="false" label="DS" sequence="1" value="DS"/>
                 <element dependent_value="EEE" inactive_on_update="false" label="Electric vehicle technologies" sequence="1" value="Electric vehicle technologies"/>
+                <element dependent_value="ECE" inactive_on_update="false" label="VLSI" sequence="1" value="VLSI"/>
                 <element dependent_value="CSE" inactive_on_update="false" label="Cloud" sequence="2" value="Cloud"/>
                 <element dependent_value="ECS" inactive_on_update="false" label="Cyber Blockchain" sequence="2" value="Cyber Blockchain"/>
+                <element dependent_value="CSE" inactive="true" inactive_on_update="true" label="Cyber Physical and IOT" sequence="2" value="Cyber Physical and IOT"/>
                 <element dependent_value="CSIT" inactive_on_update="false" label="DS" sequence="2" value="DS"/>
                 <element dependent_value="EEE" inactive_on_update="false" label="Green energy technologies" sequence="2" value="Green energy technologies"/>
                 <element dependent_value="ECS" inactive_on_update="false" label="AI" sequence="3" value="AI"/>
@@ -136,9 +148,8 @@
                 <element dependent_value="CSE" inactive_on_update="false" label="Gaming" sequence="4" value="Gaming"/>
                 <element dependent_value="ECS" inactive_on_update="false" label="IOT" sequence="4" value="IOT"/>
                 <element dependent_value="CSIT" inactive_on_update="false" label="-TBDTARGET-x_1327796_student1_course_table" sequence="5" value="-TBDTARGET-x_1327796_student1_course_table"/>
-                <element dependent_value="CSE" inactive_on_update="false" label="Cyber Physical and IOT" sequence="5" value="Cyber Physical and IOT"/>
+                <element dependent_value="CSE" inactive_on_update="false" label="Cyber Blockchain" sequence="5" value="Cyber Blockchain"/>
                 <element dependent_value="ECS" inactive_on_update="false" label="VLSI" sequence="5" value="VLSI"/>
-                <element dependent_value="CSE" inactive_on_update="false" label="Cyber Blockchain" sequence="6" value="Cyber Blockchain"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" default="new" label="State" max_length="40" name="state" type="string">

@@ -45,8 +45,8 @@
         <donut_width_percent>30</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>contact</field>
-        <field_list>course_code,course_name,state</field_list>
+        <field>specialisation</field>
+        <field_list>name,program,domain,specialisation,courses,state,contact,email</field_list>
         <filter/>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
@@ -57,7 +57,7 @@
         <interval>year</interval>
         <is_published>false</is_published>
         <is_real_time>false</is_real_time>
-        <is_scheduled>true</is_scheduled>
+        <is_scheduled>false</is_scheduled>
         <legend_align_columns>true</legend_align_columns>
         <legend_background_color/>
         <legend_border_color/>
@@ -77,7 +77,7 @@
         <page_hdrftr/>
         <pivot_expanded>true</pivot_expanded>
         <report_drilldown/>
-        <report_source display_value="Course Report (Course Table)">f65ab45897bc02106fda7b771153af69</report_source>
+        <report_source/>
         <roles/>
         <row/>
         <sc_groupby_item_id/>
@@ -86,7 +86,7 @@
         <sc_stackby_variable_id/>
         <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
         <series_name_text/>
-        <set_color>one_color</set_color>
+        <set_color>color_palette</set_color>
         <show_chart_border>false</show_chart_border>
         <show_chart_data_label>false</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
@@ -98,29 +98,29 @@
         <show_legend_border>false</show_legend_border>
         <show_marker>false</show_marker>
         <show_zero>false</show_zero>
-        <source_type>source</source_type>
+        <source_type>table</source_type>
         <start_time/>
         <style_config/>
         <sumfield/>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-03 10:12:32</sys_created_on>
-        <sys_id>025b709897bc02106fda7b771153af5c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Course Report Record</sys_name>
+        <sys_created_on>2024-03-05 15:05:22</sys_created_on>
+        <sys_id>0f8150819778c2106fda7b771153afd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CSE</sys_name>
         <sys_package display_value="Student Course  Management" source="x_1327796_student1">b48c45c4973002106fda7b771153af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Student Course  Management">b48c45c4973002106fda7b771153af98</sys_scope>
-        <sys_update_name>sys_report_025b709897bc02106fda7b771153af5c</sys_update_name>
+        <sys_update_name>sys_report_0f8150819778c2106fda7b771153afd4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-03 10:17:41</sys_updated_on>
+        <sys_updated_on>2024-03-05 15:05:22</sys_updated_on>
         <table>x_1327796_student1_course_table</table>
-        <title>Course Report Record</title>
+        <title>CSE</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
         <trend_field/>
-        <type>bar</type>
+        <type>pie</type>
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
         <use_null_in_trend>false</use_null_in_trend>

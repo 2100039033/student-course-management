@@ -36,7 +36,7 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>State: ${state}<br />Course Name: ${course_name}<br />Course Code: ${course_code}</p>]]></message_html>
+        <message_html><![CDATA[<p>Name: ${name}<br />Program: ${program}<br />Domain: ${domain}<br />Specialisation: ${specialisation}<br />Courses: ${courses}<br />State: ${state}<br /><br /><br /><br /></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Course Entry</name>
@@ -58,7 +58,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3afe0988973002106fda7b771153af5d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Course Entry</sys_name>
         <sys_overrides/>
         <sys_package display_value="Student Course  Management" source="x_1327796_student1">b48c45c4973002106fda7b771153af98</sys_package>
@@ -66,7 +66,7 @@
         <sys_scope display_value="Student Course  Management">b48c45c4973002106fda7b771153af98</sys_scope>
         <sys_update_name>sysevent_email_action_3afe0988973002106fda7b771153af5d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-02 17:31:06</sys_updated_on>
+        <sys_updated_on>2024-03-05 15:15:56</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

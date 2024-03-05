@@ -4,13 +4,13 @@
             <element>process_flow.xml</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-05 09:57:12</sys_created_on>
-            <sys_id>f40b877c9734c2106fda7b771153afd5</sys_id>
+            <sys_created_on>2024-03-05 14:11:13</sys_created_on>
+            <sys_id>312588459738c2106fda7b771153af3c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Student Course">ffc0f01097bc02106fda7b771153af75</sys_ui_formatter>
             <sys_ui_section caption="NULL" display_value="" name="x_1327796_student1_course_table" sys_domain="global" view="Default view">b26ec148973002106fda7b771153afef</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-05 09:57:12</sys_updated_on>
+            <sys_updated_on>2024-03-05 14:11:13</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
@@ -18,139 +18,97 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-05 09:57:12</sys_created_on>
-            <sys_id>b00b877c9734c2106fda7b771153afd6</sys_id>
+            <sys_created_on>2024-03-05 14:11:13</sys_created_on>
+            <sys_id>b52588459738c2106fda7b771153af3c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1327796_student1_course_table" sys_domain="global" view="Default view">b26ec148973002106fda7b771153afef</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-05 09:57:12</sys_updated_on>
+            <sys_updated_on>2024-03-05 14:11:13</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>course_code</element>
+            <element>program</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-05 09:57:12</sys_created_on>
-            <sys_id>340b877c9734c2106fda7b771153afd6</sys_id>
+            <sys_created_on>2024-03-05 14:11:13</sys_created_on>
+            <sys_id>392588459738c2106fda7b771153af3c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1327796_student1_course_table" sys_domain="global" view="Default view">b26ec148973002106fda7b771153afef</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-05 09:57:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>course_name</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-05 09:57:12</sys_created_on>
-            <sys_id>b40b877c9734c2106fda7b771153afd6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1327796_student1_course_table" sys_domain="global" view="Default view">b26ec148973002106fda7b771153afef</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-05 09:57:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>state</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-05 09:57:12</sys_created_on>
-            <sys_id>380b877c9734c2106fda7b771153afd6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1327796_student1_course_table" sys_domain="global" view="Default view">b26ec148973002106fda7b771153afef</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-05 09:57:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>branch</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-05 09:57:12</sys_created_on>
-            <sys_id>b80b877c9734c2106fda7b771153afd6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1327796_student1_course_table" sys_domain="global" view="Default view">b26ec148973002106fda7b771153afef</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-05 09:57:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-05 09:57:12</sys_created_on>
-            <sys_id>3c0b877c9734c2106fda7b771153afd6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1327796_student1_course_table" sys_domain="global" view="Default view">b26ec148973002106fda7b771153afef</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-05 09:57:12</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>program</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-05 09:57:12</sys_created_on>
-            <sys_id>bc0b877c9734c2106fda7b771153afd6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1327796_student1_course_table" sys_domain="global" view="Default view">b26ec148973002106fda7b771153afef</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-05 09:57:12</sys_updated_on>
+            <sys_updated_on>2024-03-05 14:11:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>domain</element>
-            <position>8</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-05 09:57:12</sys_created_on>
-            <sys_id>300b877c9734c2106fda7b771153afd7</sys_id>
+            <sys_created_on>2024-03-05 14:11:13</sys_created_on>
+            <sys_id>b925c8459738c2106fda7b771153afca</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1327796_student1_course_table" sys_domain="global" view="Default view">b26ec148973002106fda7b771153afef</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-05 09:57:12</sys_updated_on>
+            <sys_updated_on>2024-03-05 14:11:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>specialisation</element>
-            <position>9</position>
+            <element>.split</element>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-05 09:57:12</sys_created_on>
-            <sys_id>b00b877c9734c2106fda7b771153afd7</sys_id>
+            <sys_created_on>2024-03-05 14:11:13</sys_created_on>
+            <sys_id>3d25c8459738c2106fda7b771153afca</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1327796_student1_course_table" sys_domain="global" view="Default view">b26ec148973002106fda7b771153afef</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-05 09:57:12</sys_updated_on>
+            <sys_updated_on>2024-03-05 14:11:13</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>specialisation</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-05 14:11:13</sys_created_on>
+            <sys_id>bd25c8459738c2106fda7b771153afca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1327796_student1_course_table" sys_domain="global" view="Default view">b26ec148973002106fda7b771153afef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-05 14:11:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>courses</element>
-            <position>10</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-05 09:57:12</sys_created_on>
-            <sys_id>340b877c9734c2106fda7b771153afd7</sys_id>
+            <sys_created_on>2024-03-05 14:11:13</sys_created_on>
+            <sys_id>3125c8459738c2106fda7b771153afcb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1327796_student1_course_table" sys_domain="global" view="Default view">b26ec148973002106fda7b771153afef</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-05 09:57:12</sys_updated_on>
+            <sys_updated_on>2024-03-05 14:11:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-05 14:11:13</sys_created_on>
+            <sys_id>b125c8459738c2106fda7b771153afcb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1327796_student1_course_table" sys_domain="global" view="Default view">b26ec148973002106fda7b771153afef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-05 14:11:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
