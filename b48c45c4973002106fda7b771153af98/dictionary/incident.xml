@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true,hasWorkflow=true,live_feed=true,all_tables.query_hints=true" audit="true" db_object_id="8ef778397db1311076daf29f52070d0e" extends="task" label="Incident" max_length="40" name="incident" text_index="true" type="collection">
+        <element label="Assest Name" max_length="40" name="x_1327796_student1_assest_name" type="color"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Assest Type" max_length="40" name="x_1327796_student1_assest_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Software" sequence="0" value="Software"/>
+                <element inactive_on_update="false" label="Hardware" sequence="1" value="Hardware"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="x_1327796_student1_assest_type" dependent_on_field="x_1327796_student1_assest_type" label="Asset Name" max_length="40" name="x_1327796_student1_asset_name" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Software" inactive_on_update="false" label="cloud" sequence="0" value="cloud"/>
+                <element dependent_value="Hardware" inactive_on_update="false" label="Mouse" sequence="0" value="Mouse"/>
+                <element dependent_value="Hardware" inactive_on_update="false" label="Keyboard" sequence="1" value="Keyboard"/>
+                <element dependent_value="Software" inactive_on_update="false" label="photo shop" sequence="1" value="photo shop"/>
+            </choice>
+        </element>
+    </element>
+</database>
