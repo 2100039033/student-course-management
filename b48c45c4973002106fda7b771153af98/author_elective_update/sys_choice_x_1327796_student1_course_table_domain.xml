@@ -680,5 +680,24 @@
             <sys_updated_on>2024-03-05 09:43:40</sys_updated_on>
             <value>AIDS</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>B.Tech</dependent_value>
+            <element>domain</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IOT</label>
+            <language>en</language>
+            <name>x_1327796_student1_course_table</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-06 16:50:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-06 16:50:39</sys_updated_on>
+            <value>IOT</value>
+        </sys_choice>
     </sys_choice>
 </record_update>
