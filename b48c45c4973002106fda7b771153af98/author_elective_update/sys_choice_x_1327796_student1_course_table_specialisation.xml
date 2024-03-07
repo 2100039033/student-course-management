@@ -16,25 +16,6 @@
             <sys_updated_on>2024-03-05 10:01:27</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>CSE</dependent_value>
-            <element>specialisation</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>AI</label>
-            <language>en</language>
-            <name>x_1327796_student1_course_table</name>
-            <sequence>0</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-05 10:01:27</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-05 10:01:27</sys_updated_on>
-            <value>AI</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>AIDS</dependent_value>
             <element>specialisation</element>
             <hint/>
@@ -166,6 +147,25 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-03-05 11:29:02</sys_updated_on>
             <value>Cyber Blockchain</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>CSE</dependent_value>
+            <element>specialisation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DS</label>
+            <language>en</language>
+            <name>x_1327796_student1_course_table</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-05 10:01:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-07 11:37:49</sys_updated_on>
+            <value>DS</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Civil</dependent_value>
@@ -320,6 +320,25 @@
             <value>Artificial Intelligence and Intelligent Process Automation</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>CSE</dependent_value>
+            <element>specialisation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cloud</label>
+            <language>en</language>
+            <name>x_1327796_student1_course_table</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-05 10:01:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-07 11:37:49</sys_updated_on>
+            <value>Cloud</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>ECS</dependent_value>
             <element>specialisation</element>
             <hint/>
@@ -377,23 +396,23 @@
             <value>DS</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>CSE</dependent_value>
+            <dependent_value>Mechanical</dependent_value>
             <element>specialisation</element>
             <hint/>
             <inactive>false</inactive>
-            <label>DS</label>
+            <label>E-Mobility Engineering</label>
             <language>en</language>
             <name>x_1327796_student1_course_table</name>
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-05 10:01:27</sys_created_on>
+            <sys_created_on>2024-03-06 16:53:52</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-05 10:01:27</sys_updated_on>
-            <value>DS</value>
+            <sys_updated_on>2024-03-07 11:23:46</sys_updated_on>
+            <value>E-Mobility Engineering</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>EEE</dependent_value>
@@ -418,7 +437,7 @@
             <dependent_value>Mechanical</dependent_value>
             <element>specialisation</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Game Development &amp; UX Design</label>
             <language>en</language>
             <name>x_1327796_student1_course_table</name>
@@ -428,9 +447,9 @@
             <sys_created_on>2024-03-06 16:52:48</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-06 16:52:48</sys_updated_on>
+            <sys_updated_on>2024-03-07 11:23:46</sys_updated_on>
             <value>Game Development &amp; UX Design</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -456,7 +475,7 @@
             <dependent_value>Civil</dependent_value>
             <element>specialisation</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Structural Engineering</label>
             <language>en</language>
             <name>x_1327796_student1_course_table</name>
@@ -466,9 +485,9 @@
             <sys_created_on>2024-03-06 16:55:07</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-06 16:55:07</sys_updated_on>
+            <sys_updated_on>2024-03-07 11:28:55</sys_updated_on>
             <value>Structural Engineering</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -491,23 +510,42 @@
             <value>VLSI</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>CSE</dependent_value>
+            <dependent_value>Civil</dependent_value>
             <element>specialisation</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Cloud</label>
+            <label>Water Resources &amp; Environmental Engineering</label>
+            <language>en</language>
+            <name>x_1327796_student1_course_table</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-06 16:55:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-07 11:28:55</sys_updated_on>
+            <value>Water Resources &amp; Environmental Engineering</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Civil</dependent_value>
+            <element>specialisation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Construction Technology and Management</label>
             <language>en</language>
             <name>x_1327796_student1_course_table</name>
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-05 10:01:27</sys_created_on>
+            <sys_created_on>2024-03-06 16:56:04</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-05 10:01:27</sys_updated_on>
-            <value>Cloud</value>
+            <sys_updated_on>2024-03-07 11:28:55</sys_updated_on>
+            <value>Construction Technology and Management</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>ECS</dependent_value>
@@ -548,6 +586,44 @@
             <value>Cyber Physical and IOT</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>CSE</dependent_value>
+            <element>specialisation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Devops</label>
+            <language>en</language>
+            <name>x_1327796_student1_course_table</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-05 10:01:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-07 11:37:49</sys_updated_on>
+            <value>Devops</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>IOT</dependent_value>
+            <element>specialisation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DS</label>
+            <language>en</language>
+            <name>x_1327796_student1_course_table</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-07 11:38:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-07 11:38:46</sys_updated_on>
+            <value>DS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>CSIT</dependent_value>
             <element>specialisation</element>
             <hint/>
@@ -567,25 +643,6 @@
             <value>DS</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>Mechanical</dependent_value>
-            <element>specialisation</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>E-Mobility Engineering</label>
-            <language>en</language>
-            <name>x_1327796_student1_course_table</name>
-            <sequence>2</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-06 16:53:52</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-06 16:53:52</sys_updated_on>
-            <value>E-Mobility Engineering</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>EEE</dependent_value>
             <element>specialisation</element>
             <hint/>
@@ -603,6 +660,25 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-03-05 10:18:51</sys_updated_on>
             <value>Green energy technologies</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Mechanical</dependent_value>
+            <element>specialisation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Industrial Automation</label>
+            <language>en</language>
+            <name>x_1327796_student1_course_table</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-06 16:53:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-07 11:23:46</sys_updated_on>
+            <value>Industrial Automation</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Bio Technology</dependent_value>
@@ -643,25 +719,6 @@
             <value>RF &amp; Microwave</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>Civil</dependent_value>
-            <element>specialisation</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Water Resources &amp; Environmental Engineering</label>
-            <language>en</language>
-            <name>x_1327796_student1_course_table</name>
-            <sequence>2</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-06 16:55:07</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-06 16:55:07</sys_updated_on>
-            <value>Water Resources &amp; Environmental Engineering</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>ECS</dependent_value>
             <element>specialisation</element>
             <hint/>
@@ -681,23 +738,42 @@
             <value>AI</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>Civil</dependent_value>
+            <dependent_value>CSE</dependent_value>
             <element>specialisation</element>
             <hint/>
-            <inactive>false</inactive>
-            <label>Construction Technology and Management</label>
+            <inactive>true</inactive>
+            <label>AI</label>
             <language>en</language>
             <name>x_1327796_student1_course_table</name>
             <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-06 16:56:04</sys_created_on>
+            <sys_created_on>2024-03-05 10:01:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-07 11:37:49</sys_updated_on>
+            <value>AI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>IOT</dependent_value>
+            <element>specialisation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cloud</label>
+            <language>en</language>
+            <name>x_1327796_student1_course_table</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-07 11:38:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-06 16:56:04</sys_updated_on>
-            <value>Construction Technology and Management</value>
+            <sys_updated_on>2024-03-07 11:38:46</sys_updated_on>
+            <value>Cloud</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>EEE</dependent_value>
@@ -738,25 +814,6 @@
             <value>Data Communications</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>CSE</dependent_value>
-            <element>specialisation</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Devops</label>
-            <language>en</language>
-            <name>x_1327796_student1_course_table</name>
-            <sequence>3</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-05 10:01:27</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-05 10:01:27</sys_updated_on>
-            <value>Devops</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>CSIT</dependent_value>
             <element>specialisation</element>
             <hint/>
@@ -780,19 +837,38 @@
             <element>specialisation</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Industrial Automation</label>
+            <label>Gaming</label>
             <language>en</language>
             <name>x_1327796_student1_course_table</name>
             <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-06 16:53:52</sys_created_on>
+            <sys_created_on>2024-03-07 11:23:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-06 16:53:52</sys_updated_on>
-            <value>Industrial Automation</value>
+            <sys_updated_on>2024-03-07 11:23:46</sys_updated_on>
+            <value>Gaming</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>CSE</dependent_value>
+            <element>specialisation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gaming</label>
+            <language>en</language>
+            <name>x_1327796_student1_course_table</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-05 10:01:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-07 11:37:49</sys_updated_on>
+            <value>Gaming</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>CSIT</dependent_value>
@@ -814,6 +890,25 @@
             <value>Cloud</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>CSE</dependent_value>
+            <element>specialisation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cyber Blockchain</label>
+            <language>en</language>
+            <name>x_1327796_student1_course_table</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-05 11:27:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-07 11:37:49</sys_updated_on>
+            <value>Cyber Blockchain</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>ECE</dependent_value>
             <element>specialisation</element>
             <hint/>
@@ -831,25 +926,6 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-03-06 16:50:16</sys_updated_on>
             <value>Embedded Systems</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>CSE</dependent_value>
-            <element>specialisation</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Gaming</label>
-            <language>en</language>
-            <name>x_1327796_student1_course_table</name>
-            <sequence>4</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-05 10:01:27</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-05 10:01:27</sys_updated_on>
-            <value>Gaming</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>ECS</dependent_value>
@@ -894,19 +970,19 @@
             <element>specialisation</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Cyber Blockchain</label>
+            <label>Artificial Intelligence and Intelligent Process Automation</label>
             <language>en</language>
             <name>x_1327796_student1_course_table</name>
             <sequence>5</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-05 11:27:22</sys_created_on>
+            <sys_created_on>2024-03-07 11:37:49</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-05 13:38:38</sys_updated_on>
-            <value>Cyber Blockchain</value>
+            <sys_updated_on>2024-03-07 11:37:49</sys_updated_on>
+            <value>Artificial Intelligence and Intelligent Process Automation</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>ECS</dependent_value>
